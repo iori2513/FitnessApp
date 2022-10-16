@@ -19,6 +19,7 @@
 		768CCFD628F92D6600BFAAE4 /* DirectMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CCFD528F92D6600BFAAE4 /* DirectMessageView.swift */; };
 		768CCFDB28F93D3D00BFAAE4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CCFDA28F93D3D00BFAAE4 /* MainView.swift */; };
 		768CCFDD28F93DEE00BFAAE4 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CCFDC28F93DEE00BFAAE4 /* SideMenuView.swift */; };
+		768CCFDF28FBA96A00BFAAE4 /* HomeTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CCFDE28FBA96A00BFAAE4 /* HomeTimelineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		768CCFD528F92D6600BFAAE4 /* DirectMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectMessageView.swift; sourceTree = "<group>"; };
 		768CCFDA28F93D3D00BFAAE4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		768CCFDC28F93DEE00BFAAE4 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		768CCFDE28FBA96A00BFAAE4 /* HomeTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTimelineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				768CCFD528F92D6600BFAAE4 /* DirectMessageView.swift */,
 				768CCFDA28F93D3D00BFAAE4 /* MainView.swift */,
 				768CCFDC28F93DEE00BFAAE4 /* SideMenuView.swift */,
+				768CCFDE28FBA96A00BFAAE4 /* HomeTimelineView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				768CCFAA28F92CEB00BFAAE4 /* ContentView.swift in Sources */,
 				768CCFD428F92D4200BFAAE4 /* AdminView.swift in Sources */,
 				768CCFD628F92D6600BFAAE4 /* DirectMessageView.swift in Sources */,
+				768CCFDF28FBA96A00BFAAE4 /* HomeTimelineView.swift in Sources */,
 				768CCFA828F92CEB00BFAAE4 /* FitnessAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

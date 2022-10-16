@@ -9,7 +9,34 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("home")
+        NavigationView {
+            ScrollView(.vertical, showsIndicators: false) {
+                HomeTimelineView()
+            }
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button(action: {
+                        
+                    }) {
+                        Image(systemName: "line.3.horizontal")
+                            .imageScale(.large)
+                    }
+                }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        
+                    }) {
+                        Image(systemName: "gearshape")
+                            .imageScale(.large)
+                    }
+                }
+                ToolbarItem(placement: .principal) {
+                    Image("sampleIcon")
+                        .resizable()
+                        .frame(width: 40, height: 40)
+                }
+            }
+        }
     }
 }
 

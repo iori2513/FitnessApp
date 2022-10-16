@@ -10,31 +10,7 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         TabView {
-            NavigationView {
-                ScrollView(.vertical, showsIndicators: false) {
-                    HomeView()
-                }
-                .toolbar {
-                    ToolbarItem(placement: .navigationBarLeading) {
-                        Button(action: {
-                            
-                        }) {
-                            Image(systemName: "line.3.horizontal")
-                        }
-                    }
-                    ToolbarItem(placement: .navigationBarTrailing) {
-                        Button(action: {
-                            
-                        }) {
-                            Image(systemName: "gearshape")
-                        }
-                    }
-                    ToolbarItem(placement: .principal) {
-                        Text("Title")
-                            .font(.title)
-                    }
-                }
-            }.tabItem() {
+            HomeView().tabItem() {
                 Image(systemName: "house")
             }.tag(1)
             
