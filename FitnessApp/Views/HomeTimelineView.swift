@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeTimelineView: View {
     
-    private let iconAndNames: [[String]] = [["heart","いいね！"],
+    private let iconAndNames: [[String]] = [["heart.fill","いいね！"],
     ["message","返信"],
     ["arrowshape.turn.up.right", "共有"]]
     
@@ -30,6 +30,7 @@ struct HomeTimelineView: View {
                                     .fontWeight(.thin)
                                 Spacer()
                                 Text("This is sample sentence.")
+                                Spacer()
                                 Image("samplePostImage")
                                     .resizable()
                                     .scaledToFill()
@@ -43,6 +44,7 @@ struct HomeTimelineView: View {
                                         }) {
                                             HStack {
                                                 Image(systemName: "\(iconAndName[0])")
+                                                    .foregroundColor(.red)
                                                 Text("\(iconAndName[1])")
                                                     .font(.footnote)
                                             }

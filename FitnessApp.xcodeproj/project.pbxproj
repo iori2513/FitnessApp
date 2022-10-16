@@ -20,6 +20,7 @@
 		768CCFDB28F93D3D00BFAAE4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CCFDA28F93D3D00BFAAE4 /* MainView.swift */; };
 		768CCFDD28F93DEE00BFAAE4 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CCFDC28F93DEE00BFAAE4 /* SideMenuView.swift */; };
 		768CCFDF28FBA96A00BFAAE4 /* HomeTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CCFDE28FBA96A00BFAAE4 /* HomeTimelineView.swift */; };
+		768CCFE228FBFC7700BFAAE4 /* DailyBodyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CCFE128FBFC7700BFAAE4 /* DailyBodyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		768CCFDA28F93D3D00BFAAE4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		768CCFDC28F93DEE00BFAAE4 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		768CCFDE28FBA96A00BFAAE4 /* HomeTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTimelineView.swift; sourceTree = "<group>"; };
+		768CCFE128FBFC7700BFAAE4 /* DailyBodyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyBodyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		768CCFA628F92CEB00BFAAE4 /* FitnessApp */ = {
 			isa = PBXGroup;
 			children = (
+				768CCFE028FBFC3100BFAAE4 /* Models */,
 				768CCFD928F93CEE00BFAAE4 /* Views */,
 				768CCFA728F92CEB00BFAAE4 /* FitnessAppApp.swift */,
 				768CCFAB28F92CEC00BFAAE4 /* Assets.xcassets */,
@@ -151,6 +154,14 @@
 				768CCFDE28FBA96A00BFAAE4 /* HomeTimelineView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		768CCFE028FBFC3100BFAAE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				768CCFE128FBFC7700BFAAE4 /* DailyBodyModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +302,7 @@
 				768CCFD628F92D6600BFAAE4 /* DirectMessageView.swift in Sources */,
 				768CCFDF28FBA96A00BFAAE4 /* HomeTimelineView.swift in Sources */,
 				768CCFA828F92CEB00BFAAE4 /* FitnessAppApp.swift in Sources */,
+				768CCFE228FBFC7700BFAAE4 /* DailyBodyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
