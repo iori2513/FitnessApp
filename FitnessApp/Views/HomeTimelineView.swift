@@ -9,12 +9,11 @@ import SwiftUI
 
 struct HomeTimelineView: View {
     
-    private let imageNames: [String] = ["heart",
-    "arrowshape.turn.up.backward.circle",
-    "star.square.fill"]
+    private let iconAndNames: [[String]] = [["heart","いいね！"],
+    ["message","返信"],
+    ["arrowshape.turn.up.right", "共有"]]
     
     var body: some View {
-        
         VStack {
             ForEach(1..<10) { count in
                 VStack(alignment: .leading, spacing: 5) {
@@ -38,10 +37,16 @@ struct HomeTimelineView: View {
                                     .cornerRadius(20)
                                 Spacer()
                                 HStack(spacing: 20) {
-                                    ForEach(imageNames, id:\.self) { imageName in
-                                        Image(systemName: "\(imageName)")
-                                            .resizable()
-                                            .frame(width: 20, height: 20)
+                                    ForEach(iconAndNames, id:\.self) { iconAndName in
+                                        Button(action: {
+                                            
+                                        }) {
+                                            HStack {
+                                                Image(systemName: "\(iconAndName[0])")
+                                                Text("\(iconAndName[1])")
+                                                    .font(.footnote)
+                                            }
+                                        }
                                     }
                                 }
                                 .frame(height: 30)
