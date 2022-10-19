@@ -8,40 +8,53 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State var showSideMenu: Bool
     var body: some View {
-        NavigationView {
-            ScrollView(.vertical, showsIndicators: false) {
-                HomeTimelineView()
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    Button(action: {
-                        
-                    }) {
-                        Image(systemName: "line.3.horizontal")
-                            .imageScale(.large)
+        ZStack {
+            NavigationView {
+                ScrollView(.vertical, showsIndicators: false) {
+                    HomeTimelineView()
+                }
+                .onTapGesture {
+                    if showSideMenu {
+                        showSideMenu = false
                     }
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: {
-                        
-                    }) {
-                        Image(systemName: "gearshape")
-                            .imageScale(.large)
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarLeading) {
+                        Button(action: {
+                            //サイドメニューを開く
+                            self.showSideMenu.toggle()
+                            
+                        }) {
+                            Image(systemName: "line.3.horizontal")
+                                .imageScale(.large)
+                        }
+                    }
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button(action: {
+                            //設定を開く
+                        }) {
+                            Image(systemName: "gearshape")
+                                .imageScale(.large)
+                        }
+                    }
+                    ToolbarItem(placement: .principal) {
+                        Image("sampleIcon")
+                            .resizable()
+                            .frame(width: 40, height: 40)
                     }
                 }
-                ToolbarItem(placement: .principal) {
-                    Image("sampleIcon")
-                        .resizable()
-                        .frame(width: 40, height: 40)
-                }
+                
             }
+            SideMenuView(isOpen: $showSideMenu)
         }
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        HomeView(showSideMenu: false)
     }
 }
