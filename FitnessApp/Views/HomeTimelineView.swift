@@ -1,10 +1,3 @@
-//
-//  HomeMainView.swift
-//  FitnessApp
-//
-//  Created by 中田伊織 on 2022/10/16.
-//
-
 import SwiftUI
 
 struct HomeTimelineView: View {

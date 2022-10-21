@@ -1,13 +1,7 @@
-//
-//  MainView.swift
-//  FitnessApp
-//
-//  Created by 中田伊織 on 2022/10/14.
-//
-
 import SwiftUI
 
 struct MainView: View {
+    
     var body: some View {
         TabView {
             HomeView(showSideMenu: false).tabItem() {
@@ -18,7 +12,7 @@ struct MainView: View {
                 Image(systemName: "person")
             }.tag(2)
             
-            DirectMessageView().tabItem() {
+            LogInView().tabItem() {
                 Image(systemName: "envelope")
             }.tag(3)
             

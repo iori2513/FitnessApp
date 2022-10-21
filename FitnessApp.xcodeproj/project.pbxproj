@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76691EB529024A5D009739DB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76691EB429024A5D009739DB /* SignUpView.swift */; };
+		76691EBB2902538D009739DB /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 76691EBA2902538D009739DB /* FirebaseAnalytics */; };
 		768CCFA828F92CEB00BFAAE4 /* FitnessAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CCFA728F92CEB00BFAAE4 /* FitnessAppApp.swift */; };
 		768CCFAA28F92CEB00BFAAE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CCFA928F92CEB00BFAAE4 /* ContentView.swift */; };
 		768CCFAC28F92CEC00BFAAE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768CCFAB28F92CEC00BFAAE4 /* Assets.xcassets */; };
@@ -21,8 +23,9 @@
 		768CCFDD28F93DEE00BFAAE4 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CCFDC28F93DEE00BFAAE4 /* SideMenuView.swift */; };
 		768CCFDF28FBA96A00BFAAE4 /* HomeTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CCFDE28FBA96A00BFAAE4 /* HomeTimelineView.swift */; };
 		768CCFE228FBFC7700BFAAE4 /* DailyBodyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CCFE128FBFC7700BFAAE4 /* DailyBodyModel.swift */; };
-		768DF75E28FEC54B0071C54C /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF75D28FEC54B0071C54C /* SampleView.swift */; };
 		768DF76028FFCA190071C54C /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF75F28FFCA190071C54C /* LogInView.swift */; };
+		768DF76228FFCAAF0071C54C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF76128FFCAAF0071C54C /* SignInView.swift */; };
+		768DF76428FFCAD00071C54C /* PasswordResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF76328FFCAD00071C54C /* PasswordResetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76691EB429024A5D009739DB /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		76691EB8290252DB009739DB /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		768CCFA428F92CEB00BFAAE4 /* FitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		768CCFA728F92CEB00BFAAE4 /* FitnessAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAppApp.swift; sourceTree = "<group>"; };
 		768CCFA928F92CEB00BFAAE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,8 +65,9 @@
 		768CCFDC28F93DEE00BFAAE4 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		768CCFDE28FBA96A00BFAAE4 /* HomeTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTimelineView.swift; sourceTree = "<group>"; };
 		768CCFE128FBFC7700BFAAE4 /* DailyBodyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyBodyModel.swift; sourceTree = "<group>"; };
-		768DF75D28FEC54B0071C54C /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
 		768DF75F28FFCA190071C54C /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		768DF76128FFCAAF0071C54C /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		768DF76328FFCAD00071C54C /* PasswordResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76691EBB2902538D009739DB /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +123,7 @@
 				768CCFD928F93CEE00BFAAE4 /* Views */,
 				768CCFA728F92CEB00BFAAE4 /* FitnessAppApp.swift */,
 				768CCFAB28F92CEC00BFAAE4 /* Assets.xcassets */,
+				76691EB8290252DB009739DB /* GoogleService-Info (1).plist */,
 				768CCFAD28F92CEC00BFAAE4 /* Preview Content */,
 			);
 			path = FitnessApp;
@@ -153,7 +161,9 @@
 				768CCFD128F92D1900BFAAE4 /* HomeView.swift */,
 				768DF75F28FFCA190071C54C /* LogInView.swift */,
 				768CCFD328F92D4200BFAAE4 /* AdminView.swift */,
-				768DF75D28FEC54B0071C54C /* SampleView.swift */,
+				768DF76128FFCAAF0071C54C /* SignInView.swift */,
+				76691EB429024A5D009739DB /* SignUpView.swift */,
+				768DF76328FFCAD00071C54C /* PasswordResetView.swift */,
 				768CCFD528F92D6600BFAAE4 /* DirectMessageView.swift */,
 				768CCFDA28F93D3D00BFAAE4 /* MainView.swift */,
 				768CCFDC28F93DEE00BFAAE4 /* SideMenuView.swift */,
@@ -186,6 +196,9 @@
 			dependencies = (
 			);
 			name = FitnessApp;
+			packageProductDependencies = (
+				76691EBA2902538D009739DB /* FirebaseAnalytics */,
+			);
 			productName = FitnessApp;
 			productReference = 768CCFA428F92CEB00BFAAE4 /* FitnessApp.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +271,9 @@
 				Base,
 			);
 			mainGroup = 768CCF9B28F92CEB00BFAAE4;
+			packageReferences = (
+				76691EB92902538D009739DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 768CCFA528F92CEB00BFAAE4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -300,16 +316,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				768DF75E28FEC54B0071C54C /* SampleView.swift in Sources */,
 				768CCFD228F92D1900BFAAE4 /* HomeView.swift in Sources */,
 				768CCFDD28F93DEE00BFAAE4 /* SideMenuView.swift in Sources */,
 				768CCFDB28F93D3D00BFAAE4 /* MainView.swift in Sources */,
+				768DF76428FFCAD00071C54C /* PasswordResetView.swift in Sources */,
 				768CCFAA28F92CEB00BFAAE4 /* ContentView.swift in Sources */,
 				768CCFD428F92D4200BFAAE4 /* AdminView.swift in Sources */,
 				768CCFD628F92D6600BFAAE4 /* DirectMessageView.swift in Sources */,
 				768CCFDF28FBA96A00BFAAE4 /* HomeTimelineView.swift in Sources */,
+				76691EB529024A5D009739DB /* SignUpView.swift in Sources */,
 				768DF76028FFCA190071C54C /* LogInView.swift in Sources */,
 				768CCFA828F92CEB00BFAAE4 /* FitnessAppApp.swift in Sources */,
+				768DF76228FFCAAF0071C54C /* SignInView.swift in Sources */,
 				768CCFE228FBFC7700BFAAE4 /* DailyBodyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,7 +500,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.FitnessApp;
+				PRODUCT_BUNDLE_IDENTIFIER = site.futurenize.Futurenize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -511,7 +529,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.FitnessApp;
+				PRODUCT_BUNDLE_IDENTIFIER = site.futurenize.Futurenize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -635,6 +653,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		76691EB92902538D009739DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		76691EBA2902538D009739DB /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76691EB92902538D009739DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 768CCF9C28F92CEB00BFAAE4 /* Project object */;
 }

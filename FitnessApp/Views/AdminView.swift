@@ -1,10 +1,3 @@
-//
-//  AdminView.swift
-//  FitnessApp
-//
-//  Created by 中田伊織 on 2022/10/14.
-//
-
 import SwiftUI
 import Charts
 

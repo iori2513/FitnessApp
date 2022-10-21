@@ -1,10 +1,3 @@
-//
-//  SideMenuView.swift
-//  FitnessApp
-//
-//  Created by 中田伊織 on 2022/10/14.
-//
-
 import SwiftUI
 
 struct SideMenuView: View {
